@@ -10,7 +10,7 @@ return array(
     'modules' => array(
         'Application',
         'DoctrineModule',
-        'DoctrineORMModule',        
+        'DoctrineORMModule',
         'Album',
         'Blog'
     ),

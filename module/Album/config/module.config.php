@@ -1,4 +1,5 @@
- <?php
+<?php
+ namespace Album;
  return array(
      'controllers' => array(
          'invokables' => array(
@@ -25,7 +26,6 @@
              ),
          ),
      ),
-
      'view_manager' => array(
          'template_path_stack' => array(
              'album' => __DIR__ . '/../view',
