@@ -12,6 +12,7 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'Album',
+        'Album1',
         'Blog'
     ),
 
