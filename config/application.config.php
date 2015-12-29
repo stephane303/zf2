@@ -9,11 +9,13 @@ return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
         'Application',
-        'DoctrineModule',
-        'DoctrineORMModule',
-        'Album',
-        'Album1',
-        'Blog'
+        //'DoctrineModule',
+        //'DoctrineORMModule',
+        //'Album',
+        //'Album1',
+        //'Blog',
+        //'Task',
+        'Debug'
     ),
 
     // These are various options for the listeners attached to the ModuleManager

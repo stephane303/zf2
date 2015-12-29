@@ -12,8 +12,11 @@
      protected  $albumTable;
      public function indexAction()
      {
+        $sm = $this->getServiceLocator();
+        $router = $sm->get('Config');
          return new ViewModel(array(
              'albums' => $this->getAlbumTable()->fetchAll(),
+             'router' =>  $router['router']['routes'],
          ));
      }
 
