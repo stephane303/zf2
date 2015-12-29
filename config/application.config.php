@@ -13,7 +13,7 @@ return array(
         //'DoctrineORMModule',
         //'Album',
         //'Album1',
-        //'Blog',
+        'Blog',
         //'Task',
         'Debug'
     ),
