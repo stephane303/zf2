@@ -21,4 +21,8 @@
       * @return PostInterface
       */
      public function findPost($id);
+     
+     public function savePost(PostInterface $post);
+     
+     public function deletePost(PostInterface $blog);
  }

@@ -17,5 +17,15 @@
       * @return array|PostInterface[]
       */
      public function findAll();
+     
+     public function savePost(PostInterface $post);
+     
+     /**
+      * @param PostInterface $postObject
+      *
+      * @return bool
+      * @throws \Exception
+      */
+     public function delete(PostInterface $postObject);     
  }
 
