@@ -16,6 +16,7 @@ return array(
         //'Album',
         'Album1',
         'Blog',
+        'AlbumRest'
         //'Task',
         //'Debug',
     ),
