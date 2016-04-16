@@ -2,9 +2,12 @@
  namespace Album1;
  return array(
      'controllers' => array(
-         'invokables' => array(
-             'Album1\Controller\Album1' => 'Album1\Controller\Album1Controller',
-         ),
+        'factories' => array(
+//            'Album1\Controller\Album1' => function($sm) {
+//                     return new Controller\Album1Controller($sm->getServiceLocator()->get('doctrine.entitymanager.orm_default'));                    
+//            },            
+            'Album1\Controller\Album1' => 'Album1\Factory\Album1ControllerFactory'              
+        )        
      ),
 
      // The following section is new and should be added to your file

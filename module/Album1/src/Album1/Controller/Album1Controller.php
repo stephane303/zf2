@@ -13,14 +13,17 @@ class Album1Controller extends AbstractActionController {
     protected $albumTable;
 
     /**
-     * @var DoctrineORMEntityManager
+     * @var EntityManager
      */
     protected $em;
+    
+    public function __construct(EntityManager $em)
+    {
+        $this->em = $em;
+    }
+
 
     public function getEntityManager() {
-        if (null === $this->em) {
-            $this->em = $this->getServiceLocator()->get('doctrine.entitymanager.orm_default');
-        }
         return $this->em;
     }
 

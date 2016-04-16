@@ -16,9 +16,9 @@ return array(
         //'Album',
         'Album1',
         'Blog',
-        'AlbumRest'
+        'AlbumRest',
         //'Task',
-        //'Debug',
+        'Debug'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
