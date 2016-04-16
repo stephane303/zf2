@@ -13,7 +13,7 @@ return array(
             'album-rest' => array(
                 'type'    => 'Segment',
                 'options' => array(
-                    'route'    => '/album-rest[/:album]',
+                    'route'    => '/rest/album[/:album]',
                     'defaults' => array(
                         'controller' => 'AlbumRest\Controller\AlbumRest',
                     ),
